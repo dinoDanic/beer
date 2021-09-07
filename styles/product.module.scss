@@ -1,0 +1,64 @@
+.wrap {
+  display: flex;
+  height: 100vh;
+}
+.left,
+.right {
+  flex: 1;
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+}
+.image {
+  height: 60%;
+  width: 40%;
+  position: relative;
+}
+.title {
+  margin-bottom: 20px;
+}
+.desc {
+  p {
+    font-size: 16px;
+    color: #888;
+  }
+}
+.back {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  p {
+    margin: 0;
+    margin-left: 5px;
+  }
+}
+.fnsBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.fns {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  p {
+    margin: 0;
+  }
+  svg {
+    color: #888;
+  }
+}
+.howMuch {
+  margin: 0 10px;
+}
